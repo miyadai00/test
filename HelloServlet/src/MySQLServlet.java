@@ -20,10 +20,10 @@ public class MySQLServlet extends HttpServlet {
 
 
 
-    public MySQLServlet() {
-        super();
+//    public MySQLServlet() {
+//        super();
 
-    }
+//    }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
     	request.setCharacterEncoding("UTF-8");
@@ -42,7 +42,7 @@ public class MySQLServlet extends HttpServlet {
     	Connection conn = null;
     	String url = "jdbc:mysql://localhost/testdb";
     	String user = "root";
-    	String password = "mysql";
+    	String password = "";
 
     	try {
     		 Class.forName("com.mysql.jdbc.Driver").newInstance();
