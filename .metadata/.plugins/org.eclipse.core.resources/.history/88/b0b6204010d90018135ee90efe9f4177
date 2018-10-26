@@ -1,0 +1,8 @@
+package com.internousdev.webproj2.util.copy;
+
+public class Snippet {
+	public static void main(String[] args) {
+		com.internousdev.webproj2.util
+	}
+}
+
