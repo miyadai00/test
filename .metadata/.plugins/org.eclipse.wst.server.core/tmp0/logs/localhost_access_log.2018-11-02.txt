@@ -65,3 +65,7 @@
 0:0:0:0:0:0:0:1 - - [02/Nov/2018:21:35:45 +0900] "GET /WebProj2/ HTTP/1.1" 200 1131
 0:0:0:0:0:0:0:1 - - [02/Nov/2018:21:35:46 +0900] "POST /WebProj2/InquiryAction.action HTTP/1.1" 200 1077
 0:0:0:0:0:0:0:1 - - [02/Nov/2018:21:35:51 +0900] "POST /WebProj2/InquiryCompleteAction.action HTTP/1.1" 200 9080
+127.0.0.1 - - [02/Nov/2018:21:43:48 +0900] "GET / HTTP/1.1" 404 1019
+0:0:0:0:0:0:0:1 - - [02/Nov/2018:21:43:51 +0900] "GET /WebProj2/ HTTP/1.1" 200 1263
+0:0:0:0:0:0:0:1 - - [02/Nov/2018:21:43:53 +0900] "POST /WebProj2/InquiryAction.action;jsessionid=4D464DC1A3E675D8E8AAFAD5C73AE34A HTTP/1.1" 200 1077
+0:0:0:0:0:0:0:1 - - [02/Nov/2018:21:43:58 +0900] "POST /WebProj2/InquiryCompleteAction.action HTTP/1.1" 200 468
