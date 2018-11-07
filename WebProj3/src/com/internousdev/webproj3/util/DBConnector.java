@@ -7,19 +7,19 @@ import java.sql.SQLException;
 
 public class DBConnector {
 	/**
-	 * JDBC ãƒ‰ãƒ©ã‚¤ãƒãƒ¼å
+	 * JDBC ƒhƒ‰ƒCƒo[–¼
 	 */
 	private static String driverName = "com.mysql.jdbc.Driver";
 	/**
-	 * ãƒ‡ãƒ¼ã‚¿ãƒ™ãƒ¼ã‚¹æ¥ç¶š URL
+	 * ƒf[ƒ^ƒx[ƒXÚ‘±@URL
 	 */
 	private static String url = "jdbc:mysql://localhost/testdb";
-	/*
-	 * ãƒ‡ãƒ¼ã‚¿ãƒ™ãƒ¼ã‚¹æ¥ç¶šãƒ¦ãƒ¼ã‚¶ãƒ¼å
+	/**
+	 * ƒf[ƒ^ƒx[ƒXÚ‘±ƒ†[ƒU[–¼
 	 */
 	private static String user = "root";
 	/**
-	 * ãƒ‡ãƒ¼ã‚¿ãƒ™ãƒ¼ã‚¹æ¥ç¶šãƒ‘ã‚¹ãƒ¯ãƒ¼ãƒ‰
+	 * ƒf[ƒ^ƒx[ƒXÚ‘±ƒpƒXƒ[ƒh
 	 */
 	private static String password = "mysql";
 
