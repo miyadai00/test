@@ -21,17 +21,17 @@ public class HelloStrutsDAO {
 					PreparedStatement ps = con.prepareStatement(sql);
 					ResultSet rs = ps.executeQuery();
 
-					if(rs.next()){
+					if (rs.next()){
 						dto.setResult("MySQLÇ∆ê⁄ë±Ç≈Ç´Ç‹Ç∑ÅB");
 					}else{
 						dto.setResult("MySQLÇ∆ê⁄ë±Ç≈Ç´Ç‹ÇπÇÒÅB");
 					}
-				}catch (SQLException e) {
+				} catch (SQLException e) {
 					e.printStackTrace();
 				}
 		try {
 			con.close();
-		}catch (SQLException e) {
+		} catch (SQLException e) {
 			e.printStackTrace();
 		}
 		return dto;
